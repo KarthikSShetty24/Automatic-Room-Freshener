@@ -1,0 +1,18 @@
+pinMode(ledPin, OUTPUT);
+}
+
+void loop()
+{
+    digitalWrite(ledPin, HIGH);  
+    delay(200);
+    digitalWrite(ledPin, LOW);   
+    delay(300);
+    digitalWrite(ledPin, HIGH);  
+    delay(200);
+    digitalWrite(ledPin, LOW);   
+    delay(4000);
+    digitalWrite(ledPin, HIGH);  
+    delay(300);
+    digitalWrite(ledPin, LOW);   
+    delay(6000);
+}
